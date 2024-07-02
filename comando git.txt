@@ -1,0 +1,33 @@
+Comandos para o git
+--------------------------------------
+
+
+# Primeiro comando, copia o projeto do git para pasta local
+git clone 'link do git'
+
+# Segundo comando, ele cria o ambiente de desenvolvimento
+git init 
+
+# Comando para criar a tarefa 
+git flow feature start "nome da tarefa"
+
+# Comando para informar o github o que esta fazendo
+git push
+
+# Comando para ve a tarefa que foi feita
+git status 
+
+# Comando para adicionar a tarefa no github
+git add . 
+
+# Comando para dar um nome a sacola 
+git commit -m "nome da tarefa"
+
+# ......
+git push
+
+# Comando para finalizar tudo 
+git flow feature finish "nome da tarefa " 
+
+# ......
+git push
