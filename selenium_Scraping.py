@@ -52,5 +52,3 @@ dicDf = {'title':tierList,
          'stock':estoq}
 
 pd.DataFrame(dicDf)
-
-#finish
